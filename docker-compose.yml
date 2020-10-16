@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  ifconfig:
+    build: .
+    environment:
+      - PORT=8082
+    ports:
+      - "8082:8080"
